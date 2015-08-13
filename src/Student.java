@@ -1,5 +1,7 @@
 import java.util.Random;
 
+// This is a regular class. This can probably be changed to use an
+// interface or abstract class.
 public class Student {
 
 	private int id;

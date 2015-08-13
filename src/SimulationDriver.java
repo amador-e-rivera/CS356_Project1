@@ -57,6 +57,7 @@ public class SimulationDriver {
 		return single;
 	}
 
+	// Does as the name suggests. The questions, choices and answers are hardcoded.
 	public static Question generateMultipleChoiceQuestion() {
 		Question multiple = new MultipleChoice();
 		

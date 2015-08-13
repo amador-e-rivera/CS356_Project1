@@ -1,6 +1,6 @@
 
 // Decided to use abstract class since the functions for a question will mostly be the 
-// same. Not really sure how the number of answers allowed matters in this project.
+// same. Not really sure how the type of question matters in this project.
 public abstract class Question {
 
 	private String question;
