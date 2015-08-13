@@ -10,11 +10,4 @@ public class SingleChoice extends Question {
 			System.out.println(i + ". " + choices[i - 1]);
 		}
 	}
-
-	@Override
-	public void printResults() {
-		// TODO Auto-generated method stub
-		
-	}
-
 }

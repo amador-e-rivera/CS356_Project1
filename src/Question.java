@@ -37,5 +37,4 @@ public abstract class Question {
 
 	// Abstract Functions
 	public abstract void printQuestion();
-	public abstract void printResults();
 }
