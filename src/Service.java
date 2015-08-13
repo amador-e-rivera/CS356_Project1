@@ -52,4 +52,9 @@ public class Service implements IService<Question> {
 			System.out.println(result.getKey() + ": " + result.getValue());
 		}
 	}
+
+	@Override
+	public void displayQuestion() {
+		question.printQuestion();
+	}
 }

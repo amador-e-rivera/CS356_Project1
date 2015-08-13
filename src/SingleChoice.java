@@ -7,7 +7,7 @@ public class SingleChoice extends Question {
 		
 		System.out.println(super.getQuestion());
 		for(int i = 1; i <= choices.length; i++) {
-			System.out.println(i + ". " + choices[i - 1]);
+			System.out.println(choices[i - 1]);
 		}
 	}
 }
